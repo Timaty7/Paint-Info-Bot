@@ -100,7 +100,7 @@ async def handle_message(message: types.Message):
             
         except Exception as e:
             print(f"[ДРУГАЯ ОШИБКА]: {e}")
-            await message.answer("Извините, произошла непредвиденная техническая ошибка.")
+            await message.answer("Извините, произошла непредвиденная техническая ошибка")
             return
 
 async def main():
