@@ -104,7 +104,7 @@ async def handle_message(message: types.Message):
             return
 
 async def main():
-    print("=== БОТ НА ОБНОВЛЕННОМ ОБШИРНОМ ПРОМПТЕ ЗАПУЩЕН ===")
+    print("БОТ ЗАПУЩЕН")
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
